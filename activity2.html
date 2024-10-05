@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Array methods in Javascript</title>
+</head>
+<body>
+<h1>Array methods in javascript</h1>
+<h1>Join and Pop</h1>
+<p id="myjoin"></p>
+<p id="firstpop"></p>
+<p id="secondpop"></p>
+<script>
+var series=["Kurulus Osman","Dirillis Ertugrul","Harry Potter","Alparsalan","Saladdin"]
+document.getElementById("myjoin").innerHTML= series.join("*")
+series.pop()
+document.getElementById("firstpop").innerHTML= series
+series.push("Mehmed fehtihler sultani")
+document.getElementById("secondpop").innerHTML= series
+</script>
+</body>
+</html>
